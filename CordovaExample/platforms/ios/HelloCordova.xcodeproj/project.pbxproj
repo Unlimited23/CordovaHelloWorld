@@ -14,6 +14,8 @@
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		96D4E2A81F69510600FC3964 /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D4E2A71F69510600FC3964 /* sunny.png */; };
+		96D4E2B31F6978E100FC3964 /* jssource.js in Resources */ = {isa = PBXBuildFile; fileRef = 96D4E2B21F6978E000FC3964 /* jssource.js */; };
 		96F808D51F67E4C200D2F04F /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F808D41F67E4C200D2F04F /* LocalNotifications.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,8 @@
 		32CA4F630368D1EE00C91783 /* HelloCordova-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HelloCordova-Prefix.pch"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = HelloCordova/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* HelloCordova-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "HelloCordova-Info.plist"; path = "HelloCordova/HelloCordova-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		96D4E2A71F69510600FC3964 /* sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunny.png; sourceTree = "<group>"; };
+		96D4E2B21F6978E000FC3964 /* jssource.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jssource.js; sourceTree = "<group>"; };
 		96F808D01F67E4C100D2F04F /* HelloCordova-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloCordova-Bridging-Header.h"; sourceTree = "<group>"; };
 		96F808D41F67E4C200D2F04F /* LocalNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 				96F808D01F67E4C100D2F04F /* HelloCordova-Bridging-Header.h */,
 				302D95EE14D2391D003F00A1 /* MainViewController.h */,
 				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				96D4E2A71F69510600FC3964 /* sunny.png */,
 			);
 			name = Classes;
 			path = HelloCordova/Classes;
@@ -105,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				EB87FDF41871DAF40020F90C /* config.xml */,
+				96D4E2B21F6978E000FC3964 /* jssource.js */,
 				EB87FDF31871DA8E0020F90C /* www */,
 				EB87FDF11871DA420020F90C /* Staging */,
 				301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */,
@@ -264,7 +270,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D4E2B31F6978E100FC3964 /* jssource.js in Resources */,
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				96D4E2A81F69510600FC3964 /* sunny.png in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
 			);
